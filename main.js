@@ -33,6 +33,8 @@ function cambiaColore() {
             frecce[i].getElementsByClassName("cls-1")[j].style.stroke = colore;
     }
 
+    document.getElementById("body").style = `background-color: ${coloreCasuale()}`;
+
 }
 
 
