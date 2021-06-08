@@ -1,34 +1,30 @@
 body {
+    height: 100%;
+    margin-top: 50vh;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    transform: translateY(-50%);
+    background-color: hsl(60, 100%, 71%);
+}
+
+.tutto {
+    width: 100%;
     margin: 0px;
-    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
-.f1 {
-    margin-top: 200px;
-    margin-left: 200px;
+.frecce {
+    width: 100%;
+    margin-bottom: 10vh;
 }
 
-.f2 {
-    margin-top: 200px;
-    margin-left: 300px;
-}
-
-.f3 {
-    margin-top: 200px;
-    margin-left: 400px;
-}
-
-.f4 {
-    margin-top: 300px;
-    margin-left: 200px;
-}
-
-.f5 {
-    margin-top: 300px;
-    margin-left: 300px;
-}
-
-.f6 {
-    margin-top: 300px;
-    margin-left: 400px;
+.cls-1 {
+    fill: none;
+    stroke: black;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-width: 5%;
 }
